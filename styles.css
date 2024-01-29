@@ -1,0 +1,78 @@
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Figtree', sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+    box-shadow: 10px 10px;
+    width: 390px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.container img {
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.text-container {
+    background-color: hsl(47, 88%, 63%);
+    width: 105px;
+    height: 35px;
+    text-align: center;
+    padding-top: 6px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+
+}
+.date {
+    padding-bottom: 15px;
+}
+
+.title {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+.title:hover{
+    color:hsl(47, 88%, 63%) ;
+    cursor: pointer;
+}
+
+.info {
+    color: hsl(0, 0%, 50%);
+    padding-bottom: 30px;
+}
+
+.name h2 {
+    color: hsl(47, 88%, 63%);
+}
+.icon {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+    align-items: left;   
+}
+
+.name p {
+    padding-top: 10px;
+    padding-left: 10px;
+}
